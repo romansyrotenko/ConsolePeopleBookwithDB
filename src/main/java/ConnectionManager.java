@@ -13,7 +13,7 @@ public class ConnectionManager {
     public static Connection getConnection()  {
 
         Properties properties = new Properties();
-        File file = new File("/home/sroman/Projects/AQAClass/src/main/java/hw10/resources/config.properties");
+        File file = new File("/home/sroman/Projects/ConsolePeopleBookwithDB/src/main/resources/config.properties");
         try {
             properties.load(new FileReader(file));
         } catch (IOException e) {

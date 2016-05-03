@@ -8,7 +8,6 @@ public class PersonDao implements Dao {
     Connection connection = ConnectionManager.getConnection();
     QueryRunner run = new QueryRunner();
 
-
     @Override
     public void add(Person person) {
 

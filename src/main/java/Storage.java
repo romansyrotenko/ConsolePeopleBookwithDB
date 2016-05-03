@@ -17,38 +17,6 @@ public class Storage {
                 '}';
     }
 
-    public Storage findPersonByName(String name) {
-
-        Storage arrayOfFoundPeople = new Storage();
-
-        if (!list.isEmpty()) {
-            for (Person person: list) {
-                if (person != null && person.getName().equals(name)) {
-                    arrayOfFoundPeople.add(person);
-                }
-            }
-        } else {
-            System.out.println("Nothing to search.... Storage is empty....");
-        }
-        return arrayOfFoundPeople;
-    }
-
-    public Storage findPersonByEmail(String email) {
-
-        Storage arrayOfFoundPeople = new Storage();
-
-        if (!list.isEmpty()) {
-            for (Person person: list) {
-                if (person != null && person.getEmail().equals(email)) {
-                    arrayOfFoundPeople.add(person);
-                }
-            }
-        } else {
-            System.out.println("Nothing to search.... Storage is empty...");
-        }
-        return arrayOfFoundPeople;
-    }
-
     public List<Person> getList() {
         return list;
     }
