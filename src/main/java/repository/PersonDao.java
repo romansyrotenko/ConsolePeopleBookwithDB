@@ -1,3 +1,5 @@
+package repository;
+
 import org.apache.commons.dbutils.QueryRunner;
 
 import java.sql.Connection;

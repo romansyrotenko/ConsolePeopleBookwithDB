@@ -1,3 +1,6 @@
+package repository;
+
+
 public interface Dao {
 
     void add(Person person);

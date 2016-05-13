@@ -1,3 +1,5 @@
+package repository;
+
 import org.apache.commons.dbutils.ResultSetHandler;
 
 import java.sql.ResultSet;
