@@ -1,5 +1,7 @@
-package repository;
+package rep;
 
+import Person;
+import Storage;
 import org.apache.commons.dbutils.ResultSetHandler;
 
 import java.sql.ResultSet;

@@ -9,5 +9,5 @@ public interface Service {
     Storage findByEmail(String email);
 
     void printStorage();
-
+//интерфейс может исплоьзоваться только в области пакета??
 }

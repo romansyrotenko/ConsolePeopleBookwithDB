@@ -1,4 +1,4 @@
-package repository;
+package rep;
 
 import org.apache.commons.dbutils.DbUtils;
 

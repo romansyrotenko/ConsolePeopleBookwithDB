@@ -1,5 +1,7 @@
-package repository;
+package rep;
 
+import Person;
+import Storage;
 
 public interface Dao {
 

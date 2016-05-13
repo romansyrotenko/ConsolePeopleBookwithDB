@@ -1,4 +1,4 @@
-import repository.PersonDao;
+import rep.PersonDao;
 
 public class PersonService implements Service {
 
@@ -13,7 +13,7 @@ public class PersonService implements Service {
 
     public Storage findByName(String name) {
         return personDao.findPersonByName(name);
-    }
+    } //хаха
 
     public Storage findByEmail(String email) {
         return personDao.findPersonByEmail(email);

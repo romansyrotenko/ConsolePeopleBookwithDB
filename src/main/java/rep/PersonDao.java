@@ -1,5 +1,6 @@
-package repository;
+package rep;
 
+import Storage;
 import org.apache.commons.dbutils.QueryRunner;
 
 import java.sql.Connection;
@@ -12,7 +13,6 @@ public class PersonDao implements Dao {
 
     @Override
     public void add(Person person) {
-
         try {
             run.update(connection,
                     "INSERT INTO apps.person (`name`, `age`, `email`) VALUES (?, ?, ?)",
@@ -30,7 +30,8 @@ public class PersonDao implements Dao {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-    }
+    }//склонь в репу текущее?? та можно и это ща
+    
 
     @Override
     public Storage findPersonByName(String name) {
@@ -49,4 +50,6 @@ public class PersonDao implements Dao {
             throw new RuntimeException(e);
         }
     }
+
+
 }
